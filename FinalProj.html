@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Quincy's Favorite Albums</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Monoton&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Inline+Text:wght@600&display=swap" rel="stylesheet">
+</head>
+
+<body class="pg1">
+    <div class="header">
+        <h1>QUINCY'S FAVORITE ALBUMS</h1>
+    </div>
+    <div class="imgs">
+        <div class="image"><a href="foresthills.html" class=""><img onmouseover="bg1()" onmouseleave="bgleave1()" class="foresthills" src="foresthills.jpg"></a>
+            <p class="text text1 album1">2014 Forest Hills Drive</p>
+            <p class="artist artist1 album1">J. Cole</p>
+            <audio class="norole" src="norole.mp3"></audio>
+        </div>
+        <div class="image"><a href="coloringbook.html" class=""><img onmouseover="bg2()" onmouseleave="bgleave2()" class="coloringbook" src="coloringbook.jpg"></a>
+            <p class="text text2 album2">Coloring Book</p>
+            <p class="artist artist2 album2">Chance The Rapper</p>
+        </div>
+        <div class="image"><a href="darksky.html" class=""><img onmouseover="bg3()" onmouseleave="bgleave3()" class="darksky" src="darksky.jpg"></a>
+            <p class="text text3 album3">Dark Sky Paradise</p>
+            <p class="artist artist3 album3">Big Sean</p>
+        </div>
+        <div class="image"><a href="graduation.html" class=""><img onmouseover="bg4()" onmouseleave="bgleave4()" class="graduation" src="graduation.jpg"></a>
+            <p class="text text4 album4">Graduation</p>
+            <p class="artist artist4 album4">Kanye West</p>
+        </div>
+        <div class="image"><a class="" href="coast.html" ><img onmouseover="bg5()" onmouseleave="bgleave5()" class="coast" src="coast.jpg"></a>
+            <p class="text text5 album5">Coast 2 Coast</p>
+            <p class="artist artist5 album5">Futuristic X Devvon Terrell</p>
+        </div>
+        <div class="image"><a href="collegedropout.html" class=""><img onmouseover="bg6()" onmouseleave="bgleave6()" class="collegedropout" src="collegedropout.jpg"></a>
+            <p class="text text6 album6">College Dropout</p>
+            <p class="artist artist6 album6">Kanye West</p>
+        </div>
+        <div class="image"><a href="acidrap.html" class=""><img onmouseover="bg7()" onmouseleave="bgleave7()" class="acidrap" src="acidrap.jpg"></a>
+            <p class="text text7 album7">Acid Rap</p>
+            <p class="artist artist7 album7">Chance The Rapper</p>
+        </div>
+        <div class="image"><a href="bornsinner.html" class=""><img onmouseover="bg8()" onmouseleave="bgleave8()" class="bornsinner" src="bornsinner.jpg"></a>
+            <p class="text text8 album8">Born Sinner</p>
+            <p class="artist artist8 album8">J. Cole</p>
+        </div>
+        <div class="image"><a href="section.html" class=""><img onmouseover="bg9()" onmouseleave="bgleave9()" class="section" src="section.jpg"></a>
+            <p class="text text9 album9">Section.80</p>
+            <p class="artist artist9 album9">Kendrick Lamar</p>
+        </div>
+    </div>
+</body>
+
+<script>
+    function bg1() {
+        document.body.style.backgroundImage = "url('foresthills.jpg')";
+        document.querySelector(".text1").style.opacity = 1;
+        document.querySelector(".artist1").style.opacity = 1;
+        // document.querySelector(".norole").play();
+        // document.querySelector(".norole").loop = true;
+
+    }
+
+    function bgleave1() {
+        document.querySelector(".text1").style.opacity = 0;
+        document.querySelector(".artist1").style.opacity = 0;
+        // document.querySelector(".norole").pause();
+    }
+
+    function bg2() {
+        document.body.style.backgroundImage = "url('coloringbook.jpg')";
+        document.querySelector(".text2").style.opacity = 1;
+        document.querySelector(".artist2").style.opacity = 1;
+    }
+
+    function bgleave2() {
+        document.querySelector(".text2").style.opacity = 0;
+        document.querySelector(".artist2").style.opacity = 0;
+    }
+
+    function bg3() {
+        document.body.style.backgroundImage = "url('darksky.jpg')";
+        document.querySelector(".text3").style.opacity = 1;
+        document.querySelector(".artist3").style.opacity = 1;
+    }
+
+    function bgleave3() {
+        document.querySelector(".text3").style.opacity = 0;
+        document.querySelector(".artist3").style.opacity = 0;
+    }
+
+    function bg4() {
+        document.body.style.backgroundImage = "url('graduation.jpg')";
+        document.querySelector(".text4").style.opacity = 1;
+        document.querySelector(".artist4").style.opacity = 1;
+    }
+
+    function bgleave4() {
+        document.querySelector(".text4").style.opacity = 0;
+        document.querySelector(".artist4").style.opacity = 0;
+    }
+
+    function bg5() {
+        document.body.style.backgroundImage = "url('coast.jpg')";
+        document.querySelector(".text5").style.opacity = 1;
+        document.querySelector(".artist5").style.opacity = 1;
+    }
+
+    function bgleave5() {
+        document.querySelector(".text5").style.opacity = 0;
+        document.querySelector(".artist5").style.opacity = 0;
+    }
+
+    function bg6() {
+        document.body.style.backgroundImage = "url('collegedropout.jpg')";
+        document.querySelector(".text6").style.opacity = 1;
+        document.querySelector(".artist6").style.opacity = 1;
+    }
+
+    function bgleave6() {
+        document.querySelector(".text6").style.opacity = 0;
+        document.querySelector(".artist6").style.opacity = 0;
+    }
+
+    function bg7() {
+        document.body.style.backgroundImage = "url('acidrap.jpg')";
+        document.querySelector(".text7").style.opacity = 1;
+        document.querySelector(".artist7").style.opacity = 1;
+    }
+
+    function bgleave7() {
+        document.querySelector(".text7").style.opacity = 0;
+        document.querySelector(".artist7").style.opacity = 0;
+    }
+
+    function bg8() {
+        document.body.style.backgroundImage = "url('bornsinner.jpg')";
+        document.querySelector(".text8").style.opacity = 1;
+        document.querySelector(".artist8").style.opacity = 1;
+    }
+
+    function bgleave8() {
+        document.querySelector(".text8").style.opacity = 0;
+        document.querySelector(".artist8").style.opacity = 0;
+    }
+
+    function bg9() {
+        document.body.style.backgroundImage = "url('section.jpg')";
+        document.querySelector(".text9").style.opacity = 1;
+        document.querySelector(".artist9").style.opacity = 1;
+    }
+
+    function bgleave9() {
+        document.querySelector(".text9").style.opacity = 0;
+        document.querySelector(".artist9").style.opacity = 0;
+    }
+</script>
+
+</html>

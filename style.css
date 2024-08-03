@@ -1,0 +1,370 @@
+.pg1 {
+    height: 100%;
+    margin: 0;
+    background-image: url("foresthills.jpg");
+    background-size: cover;
+    backdrop-filter: blur(10px);
+    background-position: center;
+    transition: background-image .5s
+    
+}
+
+.pg2 {
+    height: 100%;
+    margin: 0;
+    background-image: url("foresthills.jpg");
+    background-size: cover; 
+    /* backdrop-filter: blur(10px); */
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+
+.pg3 {
+    height: 100%;
+    margin: 0;
+    background-image: url("coloringbook.jpg");
+    background-size: cover;
+    backdrop-filter: blur(10px);
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-bottom: 20px;
+}
+
+.pg4 {
+    height: 100%;
+    margin: 0;
+    background-image: url("darksky.jpg");
+    background-size: cover;
+    backdrop-filter: blur(10px);
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-bottom: 20px;
+}
+
+.pg5 {
+    height: 100%;
+    margin: 0;
+    background-image: url("graduation.jpg");
+    background-size: cover;
+    backdrop-filter: blur(10px);
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-bottom: 20px;
+}
+
+.pg6 {
+    height: 100%;
+    margin: 0;
+    background-image: url("coast.jpg");
+    background-size: cover;
+    backdrop-filter: blur(10px);
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-bottom: 20px;
+}
+
+.pg7 {
+    height: 100%;
+    margin: 0;
+    background-image: url("collegedropout.jpg");
+    background-size: cover;
+    backdrop-filter: blur(10px);
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-bottom: 20px;
+}
+
+.pg8 {
+    height: 100%;
+    margin: 0;
+    background-image: url("acidrap.jpg");
+    background-size: cover;
+    backdrop-filter: blur(10px);
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-bottom: 20px;
+}
+
+.pg9 {
+    height: 100%;
+    margin: 0;
+    background-image: url("bornsinner.jpg");
+    background-size: cover;
+    backdrop-filter: blur(10px);
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-bottom: 20px;
+}
+
+.pg10 {
+    height: 100%;
+    margin: 0;
+    background-image: url("section.jpg");
+    background-size: cover;
+    backdrop-filter: blur(10px);
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-bottom: 20px;
+}
+
+.header {
+    background-color: rgba(0, 0, 0, 0.4);
+    margin: 0px;
+    margin-top: -22px;
+    padding-bottom: 5px;
+    margin-bottom: 30px;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    font-family: 'Monoton';
+    word-spacing: 10px;
+    padding-top: 17px;
+    font-weight: 100;
+}
+
+.image img {
+    margin: 30px;
+    height: 240px;
+    min-height: 200px;
+    transition: height .5s;
+    position: relative;
+    z-index: 2;
+    opacity: 1;
+    border: 3px solid white;
+    mix-blend-mode: overlay;
+    transition: transform 0.3s;
+}
+
+.imgs {
+    text-align: center;
+    padding-bottom: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+.imgs div {
+    position: relative;
+    
+}
+
+.image img:hover {
+    box-shadow: 10px 10px 15px rgb(0, 0, 0);
+    transform: scale(1.1, 1.1);
+    transition: transform .3s, box-shadow .3s, opacity 0.3s;
+}
+
+.text {
+    display: inline-block;
+    position: absolute;
+    text-align: center;
+    font-family: 'Big Shoulders Inline Text';
+    font-size: 42px;
+    color: white;
+    text-shadow: 3px 3px 2px black;
+    z-index: 1;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.artist {
+    display: inline;
+    position: absolute;
+    text-align: center;
+    font-family: 'Big Shoulders Inline Text';
+    font-size: 26px;
+    color: white;
+    text-shadow: 3px 3px 2px black;      
+    z-index: 1;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.text1 {
+    left: 5px;
+    top: 28px;
+    margin: 50px;
+}
+
+.artist1 {
+    left: 120px;
+    top: 160px;
+}
+
+.text2 {
+    left: 5px;
+    top: 5px;
+    margin: 70px;
+}
+
+.artist2 {
+    left: 70px;
+    top: 155px;
+}
+
+.text3 {
+    left: 10px;
+    margin: 20px;
+    top: 55px;
+}
+
+.artist3 {
+    left: 120px;
+    top: 155px;
+}
+
+.text4 {
+    left: 75px;
+    top: 60px;
+}
+
+.artist4 {
+    left: 103px;
+    top: 130px;
+}
+
+.text5 {
+    left: 55px;
+    top: 50px;
+}
+
+.artist5 {
+    left: 5px;
+    top: 100px;
+    margin: 50px;
+}
+
+.text6 {
+    left: 0px;
+    top: 30px;
+    margin: 50px;
+}
+
+.artist6 {
+    left: 100px;
+    top: 160px;
+}
+
+.text7 {
+    left: 90px;
+    top: 65px;
+}
+
+.artist7 {
+    left: 65px;
+    top: 135px;
+}
+
+.text8 {
+    left: 70px;
+    top: 65px;
+}
+
+.artist8 {
+    left: 125px;
+    top: 135px;
+}
+
+.text9 {
+    left: 78px;
+    top: 65px;
+}
+
+.artist9 {
+    left: 85px;
+    top: 135px;
+}
+
+@media screen and (min-width: 1200px) {
+    .imgs {
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .cover1 {
+        height: 300px;
+    }
+}
+
+.image {
+    display: inline;
+}
+
+.cover1 {
+    margin-left: 50px;
+    border: 3px solid white;
+    margin-top: 10px;
+    float: left;   
+    margin-right: 40px;
+    margin-bottom: 30px;
+}
+
+p {
+    color: white;
+    font-family: 'Big Shoulders Inline Text';
+    font-size: 22px;
+}
+
+.details {
+    font-size: 24px;
+    margin-top: -30px;
+    margin-right: 20px;
+    margin-left: 50px;
+    word-spacing: 5px;
+    letter-spacing: 1px;
+    line-height: 35px;
+    text-shadow: 2px 2px 2px black;
+    padding-bottom: 30px;
+    margin-bottom: 20px;
+}
+
+.top {
+    margin-top: 40px;
+}
+
+b {
+    font-weight: 900;
+}
+
+.track {
+    
+    float: left;
+}
+
+.music {
+    margin: 15px;
+    height: 50px;
+    transition: transform 0.2s;
+}
+
+.music:hover {
+    transform: scale(1.15, 1.15);
+}
+
+.listen {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding-top: 15px;
+    padding-bottom: 5px;
+    margin-bottom: -10px;
+    margin-top: -10px;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    
+}
+
+.listen p {
+    letter-spacing: 5px;
+    font-size: 28px;
+    margin: 0;
+    margin-bottom: 5px;
+}

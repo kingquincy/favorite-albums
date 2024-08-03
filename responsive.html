@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Week 13 Responsive</title>
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div class="header">
+		<p>This is not a header</p>
+	</div>
+	<div class="topnav">
+		<a href="#">Home</a>
+		<a href="#">About Me</a>
+		<a href="#">Contact</a>
+		<a href="#">Support</a>
+	</div>
+	<div class="column column1">
+		<h2><u>This is not a heading</u></h2>
+		<p>This is not a paragraph. There are no words here. This is not a sentence.</p>
+	</div>
+	<div class="column column2">
+		<h2><u>This is not another heading</u></h2>
+		<p>This is not a second paragraph, it is not contained in a second column.</p>
+	</div>
+	
+</body>
+</html>
+<style type="text/css">
+	body{
+		
+		background-size: contain;
+		margin: 0px;
+	}
+	 .header{
+	 	margin-top: -10px;
+	 	background-color: gray;
+	 	color: white;
+	 	text-align: center;
+	 	text-transform: uppercase;
+	 	padding: 15px;
+	 	text-shadow: 2px 2px 4px black;
+	 }
+	 .header p{
+	 	font-size: 30px;
+	 }
+	 .topnav{
+	 	background-color: black;
+	 	text-decoration: none;
+	 	padding: 15px;
+		 margin-bottom: 10px;
+	 }
+	 .topnav a{
+	 	color: white;
+	 	text-decoration: none;
+	 	padding: 15px;
+	 	margin-left: 0px;
+	 	margin-right: 5px;
+	 	font-size: 18px;
+	 }
+	 a:hover{
+	 	background-color: white;
+	 	color: black;
+	 	transition: background-color .5s, box-shadow .5s;
+
+	 	box-shadow: 0px 0px 10px 3px gray inset;
+	 }
+	 .column{
+	 	width: 45%;
+	 	background-color: lightgray;
+	 	border: ridge 3px gray;
+	 	margin-top: 10px;
+	 	margin: 15px;
+	 	height: 350px;
+	 	box-sizing: border-box;
+	 }
+	 .column1{
+	 	float: left;
+	 	margin-left: 22px;
+	 }
+	 .column2{
+	 	float: right;
+	 	margin-right: 22px;
+	 }
+	 .column h2, p{
+	 	text-align: center;
+	 }
+	 .column p{
+	 	margin: 10px;
+	 }
+	 .footer{
+	 	
+	 }
+	 @media screen and (max-width: 800px) {
+  .column {
+	  float: left;
+	width: 93%;
+  }
+
+</style>
