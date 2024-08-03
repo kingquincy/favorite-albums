@@ -1,0 +1,1 @@
+This was the final project I did for a course I took in college called 'Intro to Web'. The project was meant to showcase the web development skills we had learned throughout the course. With a combination of HTML, CSS, and JavaScript I created a website to showcase my favorite albums. 
